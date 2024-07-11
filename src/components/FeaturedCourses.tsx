@@ -3,7 +3,7 @@ import React from "react";
 
 
 import { BackgroundGradient } from "./ui/background-gradient";
-import { IconAppWindow } from "@tabler/icons-react";
+
 import Image from "next/image";
 import courseData from "../data/music_course.json";
 import Link from "next/link";
