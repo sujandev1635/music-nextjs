@@ -1,6 +1,14 @@
-import Image from "next/image";
+"use client";
 import HeroSection from './../components/HeroSection';
 import FeaturedCourses from "@/components/FeaturedCourses";
+import TestimonialCard from '@/components/TestimonialCard';
+import UpcomingWebainers from '@/components/UpcomingWebainers';
+import WhyChooseUs from '@/components/WhyChooseUs';
+import Instructors from '@/components/Instructors';
+import Footer from '@/components/Footer';
+
+
+
 
 export default function Home() {
   return (
@@ -8,6 +16,12 @@ export default function Home() {
 
       <HeroSection />
       <FeaturedCourses />
+      <WhyChooseUs />
+      <TestimonialCard />
+      <UpcomingWebainers />
+      <Instructors />
+      <Footer />
+
     </main>
   );
 }
