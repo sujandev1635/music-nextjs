@@ -1,8 +1,11 @@
+import ContactForm from "@/components/ContactForm"
 
 
 function page() {
     return (
-        <div>page</div>
+        <div className="relative h-auto  overflow-hidden w-full bg-[#0B1120] flex justify-center items-center ">
+            <ContactForm />
+        </div>
     )
 }
 
